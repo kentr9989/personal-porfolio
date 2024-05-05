@@ -27,7 +27,7 @@ const Profile = () => {
             textShadow: '2px 2px 8px rgba(0, 0, 0, 0.2)',
           }}
         >
-          Peter Tran
+          Peter Huu Tran
         </Typography>
         <Typography
           className='uni'
