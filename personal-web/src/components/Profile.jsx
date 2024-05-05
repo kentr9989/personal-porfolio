@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, Button } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 import CustomTimelineProfile from './CustomTimelineProfile';
 
 const Profile = () => {
@@ -10,7 +10,6 @@ const Profile = () => {
         borderRadius: '10',
         width: '100%',
         height: '85vh',
-        display: 'inline-block',
         display: 'flex',
         flexDirection: 'column',
       }}
@@ -63,9 +62,11 @@ const Profile = () => {
             },
           }}
         >
+          {/** // eslint-disable-next-line */}
           <img
             src={require('../assets/profile-image.png')}
-            alt='my picture'
+            // eslint-disable-next-line
+            alt='my profile picture'
             style={{
               margin: 0,
               padding: 0,
@@ -102,7 +103,7 @@ const Profile = () => {
             },
           }}
         >
-          <CustomTimelineProfile sx={{ pt: 10}} />
+          <CustomTimelineProfile sx={{ pt: 10 }} />
           {/* <Button>my button</Button> */}
         </Box>
       </Box>

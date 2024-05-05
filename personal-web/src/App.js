@@ -2,12 +2,11 @@ import './App.css';
 import { Container, Grid } from '@mui/material';
 import Profile from './components/Profile';
 import Resume from './components/Resume';
-import Footer from './components/Footer';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import About from './components/About';
 import CssBaseline from '@mui/material/CssBaseline';
-import { BrowserRouter as Routers, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './components/ThemeContext'; // Import the ThemeProvider
 function App() {
   return (

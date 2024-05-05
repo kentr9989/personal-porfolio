@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
-import { Paper, Button, Typography, Box, Link, useTheme } from '@mui/material';
+import { Paper, Button, Typography, Link } from '@mui/material';
 import Carousel from 'react-material-ui-carousel';
 import ThemeContext from './ThemeContext'; // Make sure you have ThemeContext set up correctly
 
 const Projects = () => {
-  const theme = useTheme();
   const { darkMode } = useContext(ThemeContext); // Using ThemeContext to access current theme mode
 
   const projects = [
