@@ -1,2 +1,2 @@
 # personal-porfolio
-personal porfolio
+Personal website about myself
